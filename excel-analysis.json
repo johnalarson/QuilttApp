@@ -1,0 +1,2337 @@
+{
+  "sheetAnalysis": {
+    "positions": {
+      "rowCount": 94,
+      "columns": [
+        "HH ID",
+        "Date of Date",
+        "Account ID",
+        "Account name",
+        "Symbol",
+        "Description",
+        "# of Units",
+        "Cost Price",
+        "Position Cost Basis",
+        "Close Price",
+        "Position Market Value",
+        "Position Income Since Inception",
+        "Position Unrealized G/L",
+        "Asset Class",
+        "Classification"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        },
+        "Date of Date": {
+          "uniqueValuesSample": [
+            45736
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 45736,
+          "maxValue": 45736,
+          "totalRows": 94
+        },
+        "Account ID": {
+          "uniqueValuesSample": [
+            5356821,
+            5485290,
+            49588557,
+            5377708,
+            5630996
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 5356821,
+          "maxValue": 49588557,
+          "totalRows": 94
+        },
+        "Account name": {
+          "uniqueValuesSample": [
+            "ROIR",
+            "RCBI",
+            "Indiv.",
+            "CIRA"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        },
+        "Symbol": {
+          "uniqueValuesSample": [
+            "USD",
+            "AEM",
+            "BRKB",
+            "CME",
+            "CSCO",
+            "CMCSA",
+            "CTVA",
+            "DEO",
+            "DD",
+            "EOG"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        },
+        "Description": {
+          "uniqueValuesSample": [
+            "U.S. cash balance",
+            "AGNICO EAGLE MINES LTD F",
+            "BERKSHIRE HATHAWAY CLASS B",
+            "CME GROUP INC CLASS A",
+            "CISCO SYS INC",
+            "COMCAST CORP NEW CLASS A",
+            "CORTEVA INC",
+            "DIAGEO PLC F SPONSORED ADR 1 ADR REPS 4 ORD SHS",
+            "DUPONT DE NEMOURS INC",
+            "EOG RES INC"
+          ],
+          "hasNull": false,
+          "likelyType": "date",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        },
+        "# of Units": {
+          "uniqueValuesSample": [
+            30987.68,
+            263,
+            160,
+            35,
+            210,
+            570,
+            340,
+            60,
+            155,
+            170
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 4.075,
+          "maxValue": 30987.68,
+          "totalRows": 94
+        },
+        "Cost Price": {
+          "uniqueValuesSample": [
+            1,
+            48.4273,
+            183.6061,
+            224.7171,
+            38.7731,
+            39.5168,
+            28.1207,
+            133.642,
+            55.9351,
+            79.2074
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 1,
+          "maxValue": 686.007,
+          "totalRows": 94
+        },
+        "Position Cost Basis": {
+          "uniqueValuesSample": [
+            30987.68,
+            12736.37,
+            29376.97,
+            7865.1,
+            8142.35,
+            22524.59,
+            9561.03,
+            8018.52,
+            8669.94,
+            13465.26
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 27.59,
+          "maxValue": 71434.22,
+          "totalRows": 94
+        },
+        "Close Price": {
+          "uniqueValuesSample": [
+            1,
+            105.41,
+            528.73,
+            266.54,
+            60.62,
+            36.5,
+            61.83,
+            108,
+            76.93,
+            124.3
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 1,
+          "maxValue": 954.17,
+          "totalRows": 94
+        },
+        "Position Market Value": {
+          "uniqueValuesSample": [
+            30987.68,
+            27722.83,
+            84596.8,
+            9328.9,
+            12730.2,
+            20805,
+            21022.2,
+            6480,
+            11924.15,
+            21131
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 24,
+          "maxValue": 84596.8,
+          "totalRows": 94
+        },
+        "Position Income Since Inception": {
+          "uniqueValuesSample": [
+            "null",
+            1338,
+            0,
+            243.25,
+            592,
+            706.8,
+            282.2,
+            705.75,
+            629.85,
+            2584.67
+          ],
+          "hasNull": false,
+          "likelyType": "mixed",
+          "minValue": 0,
+          "maxValue": 4485.93,
+          "totalRows": 94
+        },
+        "Position Unrealized G/L": {
+          "uniqueValuesSample": [
+            0,
+            14986.46,
+            55219.83,
+            1463.8,
+            4587.85,
+            -1719.59,
+            11461.17,
+            -1538.52,
+            3254.21,
+            7665.74
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -1719.59,
+          "maxValue": 55219.83,
+          "totalRows": 94
+        },
+        "Asset Class": {
+          "uniqueValuesSample": [
+            "Cash balance",
+            "Stock",
+            "Mutual fund"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        },
+        "Classification": {
+          "uniqueValuesSample": [
+            "Cash & Cash Equivalent",
+            "US Equities",
+            "Equities",
+            "Mutual Funds",
+            "Exch Traded Funds"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 94
+        }
+      },
+      "potentialPrimaryKeys": [],
+      "potentialRelationColumns": [
+        "HH ID",
+        "Account ID"
+      ]
+    },
+    "hhflows": {
+      "rowCount": 18,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "Attribute",
+        "1 Month",
+        "3 Months",
+        "YTD",
+        "1 Year",
+        "3 Years",
+        "5 Years",
+        "10 Years",
+        "Inception",
+        "Sort Index"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5630996",
+            "#5485290"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 18
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Wilson HH",
+            "Jones HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 18
+        },
+        "Attribute": {
+          "uniqueValuesSample": [
+            "Beginning Value",
+            "Inflows",
+            "Outflows",
+            "Net Invested",
+            "Change in Value",
+            "Ending Value"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 18
+        },
+        "1 Month": {
+          "uniqueValuesSample": [
+            623695.9,
+            1074175.43,
+            70588.76,
+            0,
+            15472.6,
+            -1876.39,
+            15322.53,
+            1089648.03,
+            68712.37,
+            639018.43
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -1876.39,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "3 Months": {
+          "uniqueValuesSample": [
+            659046.99,
+            1109313.77,
+            55468.36,
+            14000,
+            0,
+            -125.57,
+            -27375.36,
+            -3226.74,
+            -25469.83,
+            -16439
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -27375.36,
+          "maxValue": 1109313.77,
+          "totalRows": 18
+        },
+        "YTD": {
+          "uniqueValuesSample": [
+            606452.93,
+            1046900.89,
+            54450.66,
+            14000,
+            0,
+            -125.57,
+            -1902.03,
+            -3226.74,
+            45973.88,
+            387.28
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -3226.74,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "1 Year": {
+          "uniqueValuesSample": [
+            568906.27,
+            956464.95,
+            47641.12,
+            14000,
+            0,
+            -487.05,
+            -33184.78,
+            -53042.27,
+            -40197.6,
+            -25469.83
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -53042.27,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "3 Years": {
+          "uniqueValuesSample": [
+            593555.81,
+            903585.65,
+            39854.21,
+            14000,
+            0,
+            -1201.73,
+            -96658.41,
+            -149532.7,
+            -115027.07,
+            -74837.93
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -149532.7,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "5 Years": {
+          "uniqueValuesSample": [
+            488271.92,
+            706161.45,
+            28818.11,
+            14000,
+            0,
+            -1860.99,
+            -134078.66,
+            -204692.91,
+            -149847.4,
+            -98879.87
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -204692.91,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "10 Years": {
+          "uniqueValuesSample": [
+            464580.35,
+            672637.88,
+            "null",
+            0,
+            9210.7,
+            -238909.35,
+            -378518.1,
+            -269774.96,
+            -172500.15,
+            786317.55
+          ],
+          "hasNull": false,
+          "likelyType": "mixed",
+          "minValue": -378518.1,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "Inception": {
+          "uniqueValuesSample": [
+            0,
+            40614.09,
+            500000,
+            629367.74,
+            -2637.62,
+            -251720.65,
+            -444178.2,
+            306495.17,
+            327499.85,
+            904458.49
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -444178.2,
+          "maxValue": 1089648.03,
+          "totalRows": 18
+        },
+        "Sort Index": {
+          "uniqueValuesSample": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 1,
+          "maxValue": 6,
+          "totalRows": 18
+        }
+      },
+      "potentialPrimaryKeys": [],
+      "potentialRelationColumns": [
+        "HH ID"
+      ]
+    },
+    "accounts": {
+      "rowCount": 5,
+      "columns": [
+        "HH ID",
+        "Date of Date",
+        "Account ID",
+        "Account name",
+        "Account Type",
+        "Account Cost Basis",
+        "Account total value",
+        "Account unrealized G/L",
+        "Account income on current positions",
+        "Account opening date",
+        "Account inception date",
+        "fee plans"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 5
+        },
+        "Date of Date": {
+          "uniqueValuesSample": [
+            45736
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 45736,
+          "maxValue": 45736,
+          "totalRows": 5
+        },
+        "Account ID": {
+          "uniqueValuesSample": [
+            5356821,
+            5485290,
+            49588557,
+            5377708,
+            5630996
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 5356821,
+          "maxValue": 49588557,
+          "totalRows": 5
+        },
+        "Account name": {
+          "uniqueValuesSample": [
+            "ROIR",
+            "RCBI",
+            "Indiv.",
+            "CIRA"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 5
+        },
+        "Account Type": {
+          "uniqueValuesSample": [
+            "Rollover IRA",
+            "Roth contributory IRA",
+            "Individual",
+            "Contributory IRA"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 5
+        },
+        "Account Cost Basis": {
+          "uniqueValuesSample": [
+            500650.75,
+            51991.97,
+            2028.16,
+            306370.48,
+            302659.29
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 2028.16,
+          "maxValue": 500650.75,
+          "totalRows": 5
+        },
+        "Account total value": {
+          "uniqueValuesSample": [
+            648265.96,
+            62982.04,
+            3416.18,
+            403149.63,
+            409232.28
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 3416.18,
+          "maxValue": 648265.96,
+          "totalRows": 5
+        },
+        "Account unrealized G/L": {
+          "uniqueValuesSample": [
+            147615.21,
+            10990.07,
+            1388.02,
+            96779.15,
+            106572.99
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 1388.02,
+          "maxValue": 147615.21,
+          "totalRows": 5
+        },
+        "Account income on current positions": {
+          "uniqueValuesSample": [
+            15517.24,
+            4486.53,
+            41.04,
+            11089.08,
+            11008.58
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 41.04,
+          "maxValue": 15517.24,
+          "totalRows": 5
+        },
+        "Account opening date": {
+          "uniqueValuesSample": [
+            45163
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 45163,
+          "maxValue": 45163,
+          "totalRows": 5
+        },
+        "Account inception date": {
+          "uniqueValuesSample": [
+            41394,
+            42766,
+            41305,
+            40694
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 40694,
+          "maxValue": 42766,
+          "totalRows": 5
+        },
+        "fee plans": {
+          "uniqueValuesSample": [
+            "Y"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 5
+        }
+      },
+      "potentialPrimaryKeys": [
+        "Account ID",
+        "Account Cost Basis",
+        "Account total value",
+        "Account unrealized G/L",
+        "Account income on current positions"
+      ],
+      "potentialRelationColumns": [
+        "HH ID",
+        "Account ID"
+      ]
+    },
+    "hhperformance": {
+      "rowCount": 23,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "Period",
+        "Return"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 23
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Jones HH",
+            "Wilson HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 23
+        },
+        "Period": {
+          "uniqueValuesSample": [
+            "1 Month",
+            "3 Months",
+            "1 Year",
+            "3 Years",
+            "5 Years",
+            "10 Years",
+            "Year-to-date",
+            "Since Inception"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 23
+        },
+        "Return": {
+          "uniqueValuesSample": [
+            0.0246,
+            0.0121,
+            0.1835,
+            0.0825,
+            0.105,
+            0.0786,
+            0.057,
+            0.0617,
+            -0.0266,
+            -0.005
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -0.0266,
+          "maxValue": 0.1977,
+          "totalRows": 23
+        }
+      },
+      "potentialPrimaryKeys": [
+        "Return"
+      ],
+      "potentialRelationColumns": [
+        "HH ID"
+      ]
+    },
+    "household": {
+      "rowCount": 3,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "HH Cost Basis",
+        "HH Unrealized G/L",
+        "HH Income on current positions",
+        "HH Total Value"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Jones HH",
+            "Wilson HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "HH Cost Basis": {
+          "uniqueValuesSample": [
+            500650.75,
+            54020.13,
+            657571.82
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 54020.13,
+          "maxValue": 657571.82,
+          "totalRows": 3
+        },
+        "HH Unrealized G/L": {
+          "uniqueValuesSample": [
+            147615.21,
+            12378.09,
+            400713.37
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 12378.09,
+          "maxValue": 400713.37,
+          "totalRows": 3
+        },
+        "HH Income on current positions": {
+          "uniqueValuesSample": [
+            15517.24,
+            4527.57,
+            26828.1
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 4527.57,
+          "maxValue": 26828.1,
+          "totalRows": 3
+        },
+        "HH Total Value": {
+          "uniqueValuesSample": [
+            648265.96,
+            66398.22,
+            1058285.19
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 66398.22,
+          "maxValue": 1058285.19,
+          "totalRows": 3
+        }
+      },
+      "potentialPrimaryKeys": [
+        "HH ID",
+        "Household Name",
+        "HH Cost Basis",
+        "HH Unrealized G/L",
+        "HH Income on current positions",
+        "HH Total Value"
+      ],
+      "potentialRelationColumns": [
+        "HH ID"
+      ]
+    },
+    "hhmaster": {
+      "rowCount": 3,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "Address",
+        "City",
+        "State",
+        "Zip Code",
+        "Phone",
+        "e-mail"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Jones HH",
+            "Wilson HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "Address": {
+          "uniqueValuesSample": [
+            "25 West Street",
+            "26 West Street",
+            "27 West Street"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "City": {
+          "uniqueValuesSample": [
+            "Boston"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "State": {
+          "uniqueValuesSample": [
+            "MA"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "Zip Code": {
+          "uniqueValuesSample": [
+            "02116",
+            "02117",
+            "02118"
+          ],
+          "hasNull": false,
+          "likelyType": "date",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "Phone": {
+          "uniqueValuesSample": [
+            "617-555-1212",
+            "617-555-1213",
+            "617-555-1214"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        },
+        "e-mail": {
+          "uniqueValuesSample": [
+            "sample1@gmail.com",
+            "sample2@gmail.com",
+            "sample3@gmail.com"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 3
+        }
+      },
+      "potentialPrimaryKeys": [
+        "HH ID",
+        "Household Name",
+        "Address",
+        "Zip Code",
+        "Phone",
+        "e-mail"
+      ],
+      "potentialRelationColumns": [
+        "HH ID"
+      ]
+    },
+    "hhmonthlyperformance": {
+      "rowCount": 300,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "Period",
+        "Return",
+        "Ending Value"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5485290",
+            "#5630996"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 300
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Jones HH",
+            "Wilson HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 300
+        },
+        "Period": {
+          "uniqueValuesSample": [
+            45716,
+            45688,
+            45657,
+            45626,
+            45596,
+            45565,
+            45535,
+            45504,
+            45473,
+            45443
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 42704,
+          "maxValue": 45716,
+          "totalRows": 300
+        },
+        "Return": {
+          "uniqueValuesSample": [
+            0.0246,
+            0.0316,
+            -0.0425,
+            0.0195,
+            -0.0051,
+            0.0028,
+            0.0353,
+            0.0526,
+            -0.0132,
+            0.0351
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -0.1146,
+          "maxValue": 0.093,
+          "totalRows": 300
+        },
+        "Ending Value": {
+          "uniqueValuesSample": [
+            639018.43,
+            623695.9,
+            606452.93,
+            659046.99,
+            646423.25,
+            651803.87,
+            649973.65,
+            627790.81,
+            598270.39,
+            606269.38
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 66398.22,
+          "maxValue": 1058285.19,
+          "totalRows": 300
+        }
+      },
+      "potentialPrimaryKeys": [],
+      "potentialRelationColumns": [
+        "HH ID"
+      ]
+    },
+    "hhtransactions": {
+      "rowCount": 54,
+      "columns": [
+        "HH ID",
+        "Household Name",
+        "Account ID",
+        "Account Name",
+        "Activity Type",
+        "Description",
+        "Gain/Loss ($)",
+        "Process Date",
+        "Quantity",
+        "Security Description",
+        "Symbol, CUSIP or code",
+        "Total Amount",
+        "Trade Date",
+        "Unit Price"
+      ],
+      "columnDetails": {
+        "HH ID": {
+          "uniqueValuesSample": [
+            "#5356821",
+            "#5630996",
+            "#5485290"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Household Name": {
+          "uniqueValuesSample": [
+            "Smith HH",
+            "Wilson HH",
+            "Jones HH"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Account ID": {
+          "uniqueValuesSample": [
+            5356821,
+            5630996,
+            5377708,
+            49588557,
+            5485290
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 5356821,
+          "maxValue": 49588557,
+          "totalRows": 54
+        },
+        "Account Name": {
+          "uniqueValuesSample": [
+            "ROIR",
+            "CIRA",
+            "Indiv.",
+            "RCBI"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Activity Type": {
+          "uniqueValuesSample": [
+            "DIV",
+            "BKSWP",
+            "QDV",
+            "BRSWP",
+            "BUY",
+            "RID",
+            "BKINT",
+            "PDR"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Description": {
+          "uniqueValuesSample": [
+            "SPDR BLOOMBERG 1 3 MNTH T BLL ETF",
+            "BANK SWEEP FR BROKERAGE",
+            "FIDELITY QUALITY FACTOR ETF",
+            "WELLS FARGO &amp; CO",
+            "BROKERAGE SWEEP TO BANK",
+            "VANGUARD HIGH DIVIDEND  YIELD ETF",
+            "AMGEN INC",
+            "UGI CORP NEW",
+            "AGNICO EAGLE MINES LTD F",
+            "HONEYWELL INTL INC"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Gain/Loss ($)": {
+          "uniqueValuesSample": [
+            "null"
+          ],
+          "hasNull": false,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Process Date": {
+          "uniqueValuesSample": [
+            45722,
+            45720,
+            45741,
+            45719,
+            45733,
+            45723,
+            45740,
+            45737,
+            45730,
+            45743
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 45719,
+          "maxValue": 45743,
+          "totalRows": 54
+        },
+        "Quantity": {
+          "uniqueValuesSample": [
+            "null",
+            95,
+            250,
+            1.869
+          ],
+          "hasNull": false,
+          "likelyType": "mixed",
+          "minValue": 1.869,
+          "maxValue": 250,
+          "totalRows": 54
+        },
+        "Security Description": {
+          "uniqueValuesSample": [
+            "SPDR BLOOMBERG 1 3 MNTH T BLL ETF",
+            "FIDELITY QUALITY FACTOR ETF",
+            "WELLS FARGO & CO",
+            "VANGUARD HIGH DIVIDEND YIELD ETF",
+            "AMGEN INC",
+            "UGI CORP NEW",
+            "AGNICO EAGLE MINES LTD F",
+            "HONEYWELL INTL INC",
+            "ISHARES TOTAL US STOCK MARKET ETF",
+            "DUPONT DE NEMOURS INC"
+          ],
+          "hasNull": true,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Symbol, CUSIP or code": {
+          "uniqueValuesSample": [
+            "BIL",
+            "FQAL",
+            "WFC",
+            "VYM",
+            "AMGN",
+            "UGI",
+            "AEM",
+            "HON",
+            "ITOT",
+            "DD"
+          ],
+          "hasNull": true,
+          "likelyType": "string",
+          "minValue": null,
+          "maxValue": null,
+          "totalRows": 54
+        },
+        "Total Amount": {
+          "uniqueValuesSample": [
+            198.19,
+            508.25,
+            26.4,
+            46.8,
+            121.35,
+            -206.41,
+            -22.32,
+            0.18,
+            47.56,
+            -153.95
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": -8689.65,
+          "maxValue": 8103.35,
+          "totalRows": 54
+        },
+        "Trade Date": {
+          "uniqueValuesSample": [
+            45722,
+            45720,
+            45741,
+            45719,
+            45733,
+            45723,
+            45740,
+            45737,
+            45730,
+            45743
+          ],
+          "hasNull": false,
+          "likelyType": "number",
+          "minValue": 45719,
+          "maxValue": 45743,
+          "totalRows": 54
+        },
+        "Unit Price": {
+          "uniqueValuesSample": [
+            91.47,
+            "null",
+            65.68,
+            77.03,
+            129.18,
+            324.86,
+            32.83,
+            103.6,
+            209.47,
+            123.36
+          ],
+          "hasNull": false,
+          "likelyType": "mixed",
+          "minValue": 26.73,
+          "maxValue": 324.86,
+          "totalRows": 54
+        }
+      },
+      "potentialPrimaryKeys": [],
+      "potentialRelationColumns": [
+        "HH ID",
+        "Account ID"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "from": "positions",
+      "to": "hhflows",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "accounts",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "accounts",
+      "column": "Account ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "hhperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "household",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "hhmaster",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "positions",
+      "to": "hhtransactions",
+      "column": "Account ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "accounts",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "hhperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "household",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "household",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "hhmaster",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "hhmaster",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhflows",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "hhperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "household",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "hhmaster",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "accounts",
+      "to": "hhtransactions",
+      "column": "Account ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "household",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "household",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "hhmaster",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "hhmaster",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "hhmonthlyperformance",
+      "column": "Return",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhperformance",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhmaster",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhmaster",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhmonthlyperformance",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "household",
+      "to": "hhtransactions",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhmaster",
+      "to": "hhmonthlyperformance",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhmaster",
+      "to": "hhmonthlyperformance",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhmaster",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhmaster",
+      "to": "hhtransactions",
+      "column": "Household Name",
+      "type": "shared_id"
+    },
+    {
+      "from": "hhmonthlyperformance",
+      "to": "hhtransactions",
+      "column": "HH ID",
+      "type": "shared_id"
+    }
+  ],
+  "suggestedSchema": {
+    "tables": [
+      {
+        "name": "positions",
+        "originalName": "positions",
+        "primaryKey": null,
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "date_of_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_id",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "symbol",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "description",
+            "type": "date",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "_of_units",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "cost_price",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "position_cost_basis",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "close_price",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "position_market_value",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "position_income_since_inception",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "position_unrealized_gl",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "asset_class",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "classification",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "hhflows",
+        "originalName": "hhflows",
+        "primaryKey": null,
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "attribute",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "1_month",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "3_months",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "ytd",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "1_year",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "3_years",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "5_years",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "10_years",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "inception",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "sort_index",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "accounts",
+        "originalName": "accounts",
+        "primaryKey": "Account ID",
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "date_of_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_id",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": true
+          },
+          {
+            "name": "account_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_type",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_cost_basis",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_total_value",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_unrealized_gl",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_income_on_current_positions",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_opening_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_inception_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "fee_plans",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "hhperformance",
+        "originalName": "hhperformance",
+        "primaryKey": "Return",
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "period",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "return",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": true
+          }
+        ]
+      },
+      {
+        "name": "household",
+        "originalName": "household",
+        "primaryKey": "HH ID",
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": true
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "hh_cost_basis",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "hh_unrealized_gl",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "hh_income_on_current_positions",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "hh_total_value",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "hhmaster",
+        "originalName": "hhmaster",
+        "primaryKey": "HH ID",
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": true
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "address",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "city",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "state",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "zip_code",
+            "type": "date",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "phone",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "email",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "hhmonthlyperformance",
+        "originalName": "hhmonthlyperformance",
+        "primaryKey": null,
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "period",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "return",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "ending_value",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      },
+      {
+        "name": "hhtransactions",
+        "originalName": "hhtransactions",
+        "primaryKey": null,
+        "columns": [
+          {
+            "name": "hh_id",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "household_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_id",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "account_name",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "activity_type",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "gainloss_",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "process_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "quantity",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "security_description",
+            "type": "text",
+            "nullable": true,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "symbol_cusip_or_code",
+            "type": "text",
+            "nullable": true,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "total_amount",
+            "type": "decimal",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "trade_date",
+            "type": "integer",
+            "nullable": false,
+            "isPrimaryKey": false
+          },
+          {
+            "name": "unit_price",
+            "type": "text",
+            "nullable": false,
+            "isPrimaryKey": false
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "positions",
+        "to": "hhflows",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "accounts",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "accounts",
+        "column": "Account ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "hhperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "household",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "hhmaster",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "positions",
+        "to": "hhtransactions",
+        "column": "Account ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "accounts",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "hhperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "household",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "household",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "hhmaster",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "hhmaster",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhflows",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "hhperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "household",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "hhmaster",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "accounts",
+        "to": "hhtransactions",
+        "column": "Account ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "household",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "household",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "hhmaster",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "hhmaster",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "hhmonthlyperformance",
+        "column": "Return",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhperformance",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhmaster",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhmaster",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhmonthlyperformance",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "household",
+        "to": "hhtransactions",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhmaster",
+        "to": "hhmonthlyperformance",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhmaster",
+        "to": "hhmonthlyperformance",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhmaster",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhmaster",
+        "to": "hhtransactions",
+        "column": "Household Name",
+        "type": "shared_id"
+      },
+      {
+        "from": "hhmonthlyperformance",
+        "to": "hhtransactions",
+        "column": "HH ID",
+        "type": "shared_id"
+      }
+    ]
+  }
+}
